@@ -48,7 +48,7 @@ if password == correct_password:
                     {
                         "role": "user",
                         "content": [
-                            {"type": "text", "text": "이건 어떤 그림입니까?"},
+                            {"type": "text", "text": "음식의 영양소를 분석해주세요."},
                             {"type": "image_url", "image_url": {"url": file_url}},
                         ],
                     }
