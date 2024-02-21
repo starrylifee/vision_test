@@ -48,7 +48,7 @@ if password == correct_password:
                     {
                         "role": "user",
                         "content": [
-                            {"type": "text", "text": "사진은 학생의 식사음식입니다. 확인하고 부족한 영양소를 말해주고, 다음 식사에 더 챙겨먹으면 좋은 음식을 알려주세요."},
+                            {"type": "text", "text": "음식을 분석해주고 모자란 영양소를 알려주세요."},
                             {"type": "image_url", "image_url": {"url": file_url}},
                         ],
                     }
