@@ -48,8 +48,8 @@ if password == correct_password:
                     {
                         "role": "user",
                         "content": [
-                            {"type": "text", "text": "Please analyze the meal and write down the nutrients that are lacking and the recommended foods."},
-                            {"type": "image_url", "image_url": {"url": file_url}},
+                            {"type": "text", "text": "이건 어떤 그림입니까?"},
+                            {"type": "image_url", "image_url": {"url": file_url, "detail": "low"}},
                         ],
                     }
                 ],
